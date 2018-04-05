@@ -1,0 +1,118 @@
+/*
+  1 главная страница
+    1.1 Базовые настройки
+    1.2 main_block
+      1.2.1 main_block сетка
+      1.2.2 main_block контент
+*/
+
+
+
+/* 1.2 main_block */
+/* 1.2.1 main_block сетка */
+.main_block 
+{
+    width: 960px;
+    margin: auto;
+    margin-top: 72px;
+}
+
+.main_left_block 
+{
+    width: 330px;
+    float: left;
+    margin: 0px 60px 50px 0px;
+}
+
+.main_right_block 
+{
+    width: 570px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+
+
+/* 1.2.2 main_block контент */
+.main_image
+{
+    border-radius: 5px;
+    margin-top: 27px; 
+    margin-bottom: 41px;
+}
+
+.quotes 
+{
+    padding-top: 146px;
+    padding-left: 60px;
+    width: 510px;
+    height: 226px;
+    margin-bottom: 50px; 
+    background-image: url(../image/quotes.png) no-repeat;
+}
+
+.quote_text
+{
+    font-style: italic;  
+    font: 28px/42px Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+}
+
+.main_title {
+    font: 48px/42px;
+}
+
+.autor 
+{ 
+    font-style: normal;
+    font: 16px/46px Georgia, 'Times New Roman', Times, serif;
+}
+
+.writers 
+{
+    margin: 12px 0px 42px 20px;
+}
+
+.favorite_title
+{
+    font: 24px/32px Georgia, 'Times New Roman', Times, serif;
+}
+
+.films 
+{
+    margin: 12px 0px 20px 20px;
+}
+
+.about_text 
+{
+    font: 19px/32px Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 42px;
+}
+
+.hobby_text 
+{
+    margin-top: 15px;
+    font: 19px/32px Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 42px;
+}
+
+.favorite 
+{
+    font: 19px/36px Georgia, 'Times New Roman', Times, serif;
+}
+
+.green_line 
+{
+    width: 60px;
+    height: 6px;
+    background-color: #15a98c;
+    border: none; 
+    margin-top: 31px;
+    margin-bottom: 44px;
+    border-radius: 3px;
+}
+
+.link 
+{
+    font: 19px/32px Georgia, 'Times New Roman', Times, serif;
+}
